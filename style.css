@@ -1,0 +1,122 @@
+#brand-name h1 {
+    color: #cc1d6d;
+}
+#nav-btn {
+    box-shadow: 4px 4px 5px grey;
+}
+/**/
+#banner {
+    overflow: hidden;
+    z-index: 0;
+    position: relative;
+}
+#banner-content {
+    color: white;
+    position: absolute;
+    top: 20%;
+    z-index: 2;
+}
+#banner-content h1 {
+    font-size:4.8vw;
+}
+#banner-content p {
+    font-size: 1.4vw;
+    line-height: 2;
+}
+#banner-cover {
+    background-color:rgba(46, 49, 49, 0.5);
+    position: absolute;
+    top: 0%;
+    left: 0%;   
+    z-index: 1;
+}
+/**/
+#get-started-content {
+    float: left;
+    line-height: 2;
+}
+.get-started-cards {
+    border: none;
+}
+#get-started button {
+    box-shadow: 4px 4px 5px grey;
+}
+/*media query*/
+@media (min-width: 544px) {  
+.get-started-cards h1 {font-size:1.5rem;}
+#feature-heading h1 {font-size: 1.5rem;}
+#structure-content h1 {font-size: 1.5rem;}
+#background-heading h1 {font-size: 1.5rem;}
+#signup-h1{font-size: 1.5rem;} /*1rem = 16px*/
+}
+
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (min-width: 768px) {  
+.get-started-cards h1 {font-size:2rem;}
+#feature-heading h1 {font-size: 2rem;} 
+#structure-content h1 {font-size: 2rem;}
+#background-heading h1 {font-size: 2rem;}
+#signup-h1{font-size: 2rem;}/*1rem = 16px*/
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+.get-started-cards h1 {font-size:2.5rem;}
+#feature-heading h1 {font-size: 2.5rem;} 
+#structure-content h1 {font-size: 2.5rem;}
+#background-heading h1 {font-size: 2.5rem;}
+#signup-h1{font-size: 2.5rem;}/*1rem = 16px*/
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  
+.get-started-cards h1 {font-size:3rem;}
+#feature-heading h1 {font-size: 3rem;} 
+#structure-content h1 {font-size: 3rem;}
+#background-heading h1 {font-size: 3rem;}
+#signup-h1{font-size: 3rem;}/*1rem = 16px*/    
+}
+/**/
+#structure-content {
+    float: left;
+    line-height: 2;
+}
+#get-started button {
+    box-shadow: 4px 4px 5px grey;
+}
+/**/
+
+#background p {
+    color: gray;
+}
+/**/
+#reviews .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+/**/
+input, textarea {
+    opacity: 60%;
+}
+/**/
+footer img {
+    width: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+footer p,a {
+    color: gray;
+
+}
+.text-success{
+    color: #cc1d6d!important;
+}
+
+section#gradient.container-fluid.p-5{
+    background-color:#cc1d6d;
+}
+button.btn.btn-success.mt-3.w-100.rounded-pill{
+    background-color:#cc1d6d; 
+}
+button.btn.btn-success.my-2.my-sm-0.ml-5.rounded-pill{
+    background-color:#cc1d6d; 
+}
